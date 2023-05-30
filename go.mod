@@ -1,4 +1,4 @@
-module github.com/bep/gallerydeluxe_starter
+module github.com/tiennm99/tn1
 
 go 1.19
 
