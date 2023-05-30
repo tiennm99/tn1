@@ -1,6 +1,7 @@
 baseURL      = "https://tn1.pages.dev"
 title        = "TN1, Độc - Đỉnh - Điên"
 disableKinds = ["section", "taxonomy", "term"]
+timeout      = 60000
 
 [params]
     # Set to enable Plausible Analytics.
@@ -15,7 +16,7 @@ disableKinds = ["section", "taxonomy", "term"]
 
         # Enable Exif data in the gallery.
         # See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
-        enable_exif = true
+        enable_exif = false
 
 [caches]
     [caches.images]
